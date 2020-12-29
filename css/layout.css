@@ -64,3 +64,11 @@ button {
     font-size: 0;
     padding: 0;
 }
+
+#side-menu-wrap {
+    width: 204px;
+}
+
+.sm-home {
+    font-size: 0;
+}
