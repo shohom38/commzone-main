@@ -12,24 +12,48 @@
     background: url('../img/top/cz-input-mid.png') center center repeat-x;
 }
 
+.newszone-banner {
+    height: 43px;
+    overflow: hidden;
+}
+
 .newszone-banner > a {
     display: block;
     background: url('../img/sidemenu/news-zone-title.png') 0 0 no-repeat;
     width: 204px;
     height: 44px;
+    padding-top: 44px;
     background-size: 204px auto;
     overflow: hidden;
 }
 
 .sm-list-wrap > li {
     overflow: hidden;
+    height: 30px;
+}
+
+.sm-list-wrap > li:first-child {
+    height: 47px;
+}
+
+.sm-list-wrap > li > a{
+    display: block;
+    width: 204px;
+    background-size: 204px auto;
+    height: 31px;
+    padding-top: 31px;
 }
 
 .sm-list-wrap > li:first-child > a {
-    display: block;
     background: url('../img/sidemenu/todaynews.png') 0 0 no-repeat;
-    width: 204px;
     height: 48px;
     padding-top: 48px;
-    background-size: 204px auto;
+}
+
+.sm-list-wrap > li:nth-child(2) > a {
+    background: url('../img/sidemenu/daily.png') 0 0 no-repeat;
+}
+
+.sm-list-wrap > li:nth-child(3) > a {
+    background: url('../img/sidemenu/data-room.png') 0 0 no-repeat;
 }
