@@ -72,3 +72,32 @@ button {
 .sm-home {
     font-size: 0;
 }
+
+.banner-wrap {
+    width: 153px;
+    margin: 0 auto;
+    font-size: 0;
+}
+
+.banner-site-move {
+    margin-top: 15px;
+}
+
+.banner-wrap > ul::after {
+    display: block;
+    content: "";
+    clear: both;
+}
+
+.banner-wrap > ul > li {
+    float: left;
+    margin-top: 5px;
+}
+
+.banner-wrap > ul > li > a {
+    display: block;
+}
+
+.banner-wrap > ul > li:nth-child(even) {
+    padding-left: 4px;
+}
