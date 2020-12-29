@@ -1,0 +1,13 @@
+.input-left {
+    background: url('../img/top/cz-input-left.png') left center no-repeat;
+    padding-left: 7px;
+}
+
+.input-right {
+    background: url('../img/top/cz-input-right.png') right center no-repeat;
+    padding-right: 2px;
+}
+
+.input-mid {
+    background: url('../img/top/cz-input-mid.png') center center repeat-x;
+}

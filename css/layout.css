@@ -1,0 +1,66 @@
+body {
+    background: url('../img/top/top-bg-body.png') left top repeat-x;
+}
+
+
+#header-wrap {
+    width: 958px;
+    margin: 0 auto;
+    position: relative;
+    font-size: 0;
+    text-align: center;
+}
+
+#search-btn-wrap {
+    position: absolute;
+    bottom: 16px;
+    right: 0;
+    height: 28px;
+    text-align: left;
+}
+
+.date {
+    position: absolute;
+    left: -2px;
+    bottom: 17px;
+
+}
+
+.top-logo {
+    display: inline-block;
+}
+
+#search-wrap {
+    display: inline-block;
+    text-align: left;
+}
+
+.ht-28 {
+    height: 28px;
+}
+
+.input-mid {
+    width: 133px;
+    text-align: left;
+}
+
+input {
+    font-size: 9px;
+    width: 100%;
+    height: 26px;
+    background: transparent;
+    border: none;
+    padding-left: 3px;
+    outline: none;
+}
+
+button {
+    cursor: pointer;
+    vertical-align: top;
+    border: none;
+    outline: none;
+    background: none;
+    margin-left: 0;
+    font-size: 0;
+    padding: 0;
+}
