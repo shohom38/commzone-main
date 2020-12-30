@@ -12,14 +12,13 @@
     background: url('../img/top/cz-input-mid.png') center center repeat-x;
 }
 
-.newszone-banner {
+.sm-banner {
     height: 43px;
     overflow: hidden;
 }
 
-.newszone-banner > a {
+.sm-banner > a {
     display: block;
-    background: url('../img/sidemenu/news-zone-title.png') 0 0 no-repeat;
     width: 204px;
     height: 44px;
     padding-top: 44px;
@@ -27,12 +26,28 @@
     overflow: hidden;
 }
 
+.newszone-banner > a {
+    background: url('../img/sidemenu/news-zone-title.png') 0 0 no-repeat;
+}
+
+.openarea-banner > a {
+    background: url('../img/sidemenu/open-area-title.png') 0 0  no-repeat;
+}
+
+.ht-31 {
+    height: 31px;
+    padding-top: 31px;
+}
+
 .sm-list-wrap > li {
     overflow: hidden;
+}
+
+.nz-list-wrap > li  {
     height: 30px;
 }
 
-.sm-list-wrap > li:first-child {
+.nz-list-wrap > li:first-child {
     height: 47px;
 }
 
@@ -40,20 +55,40 @@
     display: block;
     width: 204px;
     background-size: 204px auto;
-    height: 31px;
-    padding-top: 31px;
 }
 
-.sm-list-wrap > li:first-child > a {
+.nz-list-wrap > li:first-child > a {
     background: url('../img/sidemenu/todaynews.png') 0 0 no-repeat;
     height: 48px;
     padding-top: 48px;
 }
 
-.sm-list-wrap > li:nth-child(2) > a {
+.nz-list-wrap > li:nth-child(2) > a {
     background: url('../img/sidemenu/daily.png') 0 0 no-repeat;
 }
 
-.sm-list-wrap > li:nth-child(3) > a {
+.nz-list-wrap > li:nth-child(3) > a {
     background: url('../img/sidemenu/data-room.png') 0 0 no-repeat;
+}
+
+.oa-list-wrap > li {
+    height: 46px;
+}
+
+.oa-list-wrap > li > a {
+    background: url('../img/sidemenu/hot-issue.png') 0 0 no-repeat;
+    height: 46px;
+    padding-top: 47px;
+}
+
+.oa-list-wrap > li:nth-child(2) > a {
+    background: url('../img/sidemenu/talktalk.png') 0 0 no-repeat;
+}
+
+.oa-list-wrap > li:nth-child(3) > a {
+    background:  url('../img/sidemenu/livepoll.png') 0 0 no-repeat;
+}
+
+.oa-list-wrap > li:nth-child(4) > a {
+    background: url('../img/sidemenu/idea.png') 0 0 no-repeat;
 }
