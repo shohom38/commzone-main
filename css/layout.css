@@ -24,17 +24,24 @@ body {
 }
 
 #side-contents-wrap {
-    width: 958px;
+    width: 1024px;
     margin: 0 auto;
+    position: relative;
 }
 
 #contents-wrap {
-    padding: 27px 30px 19px 30px;
+    padding: 27px 30px 19px 227px;
+}
+
+#contents-wrap::after {
+    content: "";
+    display: block;
+    clear: both;
 }
 
 .date {
     position: absolute;
-    left: -2px;
+    left: 0;
     bottom: 17px;
 
 }
@@ -80,10 +87,10 @@ button {
 
 #side-menu-wrap {
     width: 204px;
-    position: absolute;
-    left: 0;
     background: url('../img/sidemenu/side-shadow.png') right top repeat-y;
     padding-right: 7px;
+    position: absolute;
+    left: 0;
 }
 
 .sm-home {
@@ -130,6 +137,7 @@ button {
 
 .banner-wrap-1 {
     width: 757px;
+    margin-bottom: 28px;
 }
 
 .banner-wrap-1::after {
@@ -148,7 +156,6 @@ button {
 }
 
 .box-wrap > .box-181x162 {
-    width: 181px;
     float: left;
 }
 
@@ -163,4 +170,27 @@ button {
 
 .banner-wrap-1 > .box-wrap:nth-child(even){
     margin-left: 11px;
+}
+
+.banner-wrap-2 {
+    margin-bottom: 19px;
+}
+
+.banner-wrap-2::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.banner-wrap-2 > div {
+    float: left;
+}
+
+.banner-wrap-2 > div:nth-child(even) {
+    margin-left: 11px;
+}
+
+.banner-wrap-2 > div:first-child,
+.banner-wrap-2 > div:nth-child(2) {
+    margin-bottom: 11px;
 }
