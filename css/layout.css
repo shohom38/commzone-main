@@ -1,7 +1,10 @@
 body {
-    background: url('../img/top/top-bg-body.png') left top repeat-x;
+    background-color: #fafafa;
 }
 
+#wrap {
+    background: url('../img/top/top-bg-wrap.png') left top repeat-x;
+}
 
 #header-wrap {
     width: 958px;
@@ -67,13 +70,15 @@ button {
 
 #side-menu-wrap {
     width: 204px;
+    background: url('../img/sidemenu/side-shadow.png') right top repeat-y;
+    padding-right: 7px;
 }
 
 .sm-home {
     font-size: 0;
 }
 
-.banner-wrap {
+.banner-contents-wrap {
     width: 153px;
     margin: 0 auto;
     font-size: 0;
@@ -100,4 +105,9 @@ button {
 
 .banner-wrap > ul > li:nth-child(even) {
     padding-left: 4px;
+}
+
+#openarea-sect {
+    margin-top: 26px;
+    padding-bottom: 14px;
 }
