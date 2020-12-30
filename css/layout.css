@@ -4,6 +4,7 @@ body {
 
 #wrap {
     background: url('../img/top/top-bg-wrap.png') left top repeat-x;
+    position: relative;
 }
 
 #header-wrap {
@@ -20,6 +21,15 @@ body {
     right: 0;
     height: 28px;
     text-align: left;
+}
+
+#side-contents-wrap {
+    width: 958px;
+    margin: 0 auto;
+}
+
+#contents-wrap {
+    padding: 27px 30px 19px 30px;
 }
 
 .date {
@@ -70,6 +80,8 @@ button {
 
 #side-menu-wrap {
     width: 204px;
+    position: absolute;
+    left: 0;
     background: url('../img/sidemenu/side-shadow.png') right top repeat-y;
     padding-right: 7px;
 }
@@ -82,6 +94,15 @@ button {
     width: 153px;
     margin: 0 auto;
     font-size: 0;
+    padding: 0 25px;
+}
+
+.pb26 {
+    padding-bottom: 26px;
+}
+
+.pb14 {
+    padding-bottom: 14px;
 }
 
 .banner-site-move {
@@ -107,7 +128,39 @@ button {
     padding-left: 4px;
 }
 
-#openarea-sect {
-    margin-top: 26px;
-    padding-bottom: 14px;
+.banner-wrap-1 {
+    width: 757px;
+}
+
+.banner-wrap-1::after {
+    display: block;
+    content: "";
+    clear: both;
+}
+
+.bwrap {
+    background-color: #ffffff;
+}
+
+.box-wrap {
+    width: 373px;
+    float: left;
+}
+
+.box-wrap > .box-181x162 {
+    width: 181px;
+    float: left;
+}
+
+.box-wrap > .box-181x162:first-child,
+.box-wrap > .box-181x162:nth-child(2) {
+    margin-bottom: 11px;
+}
+
+.box-wrap > .box-181x162:nth-child(even) {
+    margin-left: 11px;
+}
+
+.banner-wrap-1 > .box-wrap:nth-child(even){
+    margin-left: 11px;
 }
