@@ -99,6 +99,7 @@
 
 .box {
     background-color: #ececec;
+    font-size: 0;
 }
 
 .box-373x334 {
@@ -121,4 +122,6 @@
     height: 113px;
 }
 
-.
+footer {
+    background: url('../img/sidemenu/side-sect-r-line.png') left top repeat-x;
+}
