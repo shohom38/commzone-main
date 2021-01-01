@@ -41,7 +41,7 @@ body {
 
 .date {
     position: absolute;
-    left: 0;
+    left: -1px;
     bottom: 17px;
 
 }
@@ -91,6 +91,7 @@ button {
     padding-right: 7px;
     position: absolute;
     left: 0;
+    top: -1px;
 }
 
 .sm-home {
@@ -101,19 +102,23 @@ button {
     width: 153px;
     margin: 0 auto;
     font-size: 0;
-    padding: 0 25px 0 26px;
+    padding: 0 27px 0 24px;
 }
 
 .pb26 {
     padding-bottom: 26px;
 }
 
-.pb15 {
-    padding-bottom: 15px;
+.pb13 {
+    padding-bottom: 13px;
 }
 
 .banner-site-move {
     margin-top: 15px;
+}
+
+.banner-wrap > ul {
+    padding-left: 1px;
 }
 
 .banner-wrap > ul::after {
@@ -124,7 +129,7 @@ button {
 
 .banner-wrap > ul > li {
     float: left;
-    margin-top: 5px;
+    margin: 5px auto 0 auto;
 }
 
 .banner-wrap > ul > li > a {
@@ -148,6 +153,7 @@ button {
 
 .bwrap {
     background-color: #ffffff;
+    text-align: right;
 }
 
 .box-wrap {
@@ -195,6 +201,35 @@ button {
     margin-bottom: 11px;
 }
 
+.vision-banr {
+    margin-top: 5px;
+}
+
+.lp-contents {
+    position: relative;
+}
+
+.lp-txt-wrap {
+    width: 157px;
+    position: absolute;
+    top: 25px;
+    left: 20px;
+}
+
+.lp-txt-wrap > img + img {
+    margin-top: 14px;
+}
+
+.vote-btn-wrap {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.vote-btn-wrap > a + a {
+    margin-left: 10px;
+}
+
 #footer-wrap {
     width: 958px;
     margin: 0 auto;
@@ -207,5 +242,5 @@ button {
 }
 
 #footer-wrap > div + div {
-    margin-left: 0;
+    margin-left: 10px;
 }

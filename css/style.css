@@ -13,7 +13,7 @@
 }
 
 .sm-banner {
-    height: 43px;
+    height: 44px;
     overflow: hidden;
 }
 
@@ -28,6 +28,7 @@
     padding-top: 44px;
     background-size: 204px auto;
     overflow: hidden;
+    font-size: 0;
 }
 
 .newszone-banner > a {
@@ -40,11 +41,12 @@
 
 .ht-31 {
     height: 31px;
-    padding-top: 32px;
+    padding-top: 31px;
 }
 
 .sm-list-wrap > li {
     overflow: hidden;
+    font-size: 0;
 }
 
 .nz-list-wrap > li  {
@@ -58,13 +60,13 @@
 .sm-list-wrap > li > a{
     display: block;
     width: 204px;
-    background-size: 204px auto;
 }
 
 .nz-list-wrap > li:first-child > a {
     background: url('../img/sidemenu/todaynews.png') 0 0 no-repeat;
     height: 48px;
-    padding-top: 49px;
+    padding-top: 48px;
+    overflow: hidden;
 }
 
 .nz-list-wrap > li:nth-child(2) > a {
@@ -97,19 +99,83 @@
     background: url('../img/sidemenu/idea.png') 0 0 no-repeat;
 }
 
-.box {
-    background-color: #ececec;
+.block-box {
     font-size: 0;
+}
+
+.box {
+    font-size: 0;
+    position: relative;
+}
+
+.box > a {
+    display: block;
+    width: 181px;
+    height: 162px;
+    position: relative;
 }
 
 .box-373x334 {
     width: 373px;
     height: 334px;
+    position: relative;
 }
 
 .box-181x162 {
     width: 181px;
     height: 162px;
+}
+
+.ct-1 {
+    display: inline-block;
+    position: absolute;
+    top: 50px;
+    left: 23px;
+    background: url('../img/contents/ct-1-txt.png') 0 0 no-repeat;
+    width: 220px;
+    height: 135px;
+}
+
+.box-373x334 > a:hover .ct-1 {
+    background: url('../img/contents/ct-1-hover.png') 0 0 no-repeat;
+}
+
+.livetalk {
+    background: url('../img/contents/contents-2-img.png') 0 0 no-repeat;
+}
+
+.CnT {
+    background: url('../img/contents/contents-3-img.png') 0 0 no-repeat;
+}
+
+.interview {
+    background: url('../img/contents/contents-4-img.png') 0 0 no-repeat;
+}
+
+.office-bc {
+    background: url('../img/contents/contents-5-img.png') 0 0 no-repeat;
+}
+
+.top-19 > img {
+    position: absolute;
+    top: 19px;
+    left: 19px;
+}
+
+.interview > img:first-child {
+    left: 18px;
+    top: 6px;
+}
+
+.office-bc > img:first-child {
+    left: 13px;
+    top: 5px;
+}
+
+.top-39 > img {
+    position: absolute;
+    top: 39px;
+    left: 16px;
 }
 
 .box-373x141 {
@@ -120,6 +186,99 @@
 .box-373x113 {
     width: 373px;
     height: 113px;
+    background: url('../img/contents/notice-bord.png') 0 0 no-repeat;
+    font-size: 12px;
+    position: relative;
+}
+
+.talktalk-wrap > h2 {
+    background: url('../img/contents/talk-txt.png') 0 0 no-repeat;
+}
+
+.idea-wrap > h2 {
+    background: url('../img/contents/idea-txt.png') 0 0 no-repeat;
+}
+
+.box-373x113 > h2 {
+    padding-top: 10px;
+    font-size: 0;
+    overflow: hidden;
+    margin: 14px 0 0 20px;
+}
+
+.box-373x113 > ul {
+    margin-top: 13px;
+    padding-left: 21px;
+}
+
+.box-373x113 > ul > li {
+    position: relative;
+    background: url('../img/contents/board-list-dot.png') left center no-repeat;
+    padding-left: 10px;
+}
+
+.box-373x113 > ul > li > a {
+    color: #666666;
+    line-height: 21px;
+}
+
+.box-373x113 > ul > li > a > span {
+    position: absolute;
+    right: 22px;
+}
+
+.box-373x113 > ul > li:last-child > a > span {
+    right: 25px;
+}
+
+.board-more {
+    position: absolute;
+    top: 19px;
+    right: 22px;
+}
+
+.hotissue-wrap {
+    background: url('../img/contents/hot-issue-bg.png') 0 0 no-repeat;
+}
+
+.hi-title {
+    background: url('../img/contents/hi-bg-title.png') 0 0 no-repeat;
+    height: 23px;
+    position: relative;
+}
+
+.hoti-txt {
+    position: absolute;
+    top: 42px;
+    left: 21px;
+}
+
+.person-position {
+    position: absolute;
+    bottom: 0;
+    right: 18px;
+}
+
+.livepoll-wrap {
+    background: url('../img/contents/bg-livepoll.png') 0 0 no-repeat;
+}
+
+.lp-title {
+    background: url('../img/contents/lp-title-bg.png') 0 0 no-repeat;
+    height: 24px;
+    position: relative;
+}
+
+.title-position {
+    position: absolute;
+    top: 6px;
+    left: 21px;
+}
+
+.more-position {
+    position: absolute;
+    top: 8px;
+    right: 20px;
 }
 
 footer {
