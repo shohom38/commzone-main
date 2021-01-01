@@ -193,28 +193,33 @@
 
 .talktalk-wrap > h2 {
     background: url('../img/contents/talk-txt.png') 0 0 no-repeat;
+    margin: 14px 0 0 20px;
+}
+
+.talktalk-wrap > ul > li {
+    background: url('../img/contents/board-list-dot.png') left center no-repeat;
+    padding-left: 10px;
+}
+
+.idea-wrap > ul > li {
+    background: url('../img/contents/idea-list-dot.png') left center no-repeat;
+    padding-left: 10px;
 }
 
 .idea-wrap > h2 {
     background: url('../img/contents/idea-txt.png') 0 0 no-repeat;
+    margin: 16px 0 0 21px;
 }
 
 .box-373x113 > h2 {
     padding-top: 10px;
     font-size: 0;
     overflow: hidden;
-    margin: 14px 0 0 20px;
 }
 
 .box-373x113 > ul {
     margin-top: 13px;
     padding-left: 21px;
-}
-
-.box-373x113 > ul > li {
-    position: relative;
-    background: url('../img/contents/board-list-dot.png') left center no-repeat;
-    padding-left: 10px;
 }
 
 .box-373x113 > ul > li > a {
