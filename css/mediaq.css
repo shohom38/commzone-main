@@ -28,6 +28,7 @@
     }
 
     #footer-wrap {
+        width: 768px;
         display: inline-block;
     }
 
@@ -37,5 +38,47 @@
 
     #footer-wrap > div + div {
         margin: 0;
+    }
+
+    .date {
+        left: 15px;
+    }
+
+    #search-btn-wrap {
+        display: none;
+    }
+
+    #mobile-btn-wrap {
+        position: absolute;
+        top: 21px;
+        right: 20px;
+    }
+
+    #mobile-btn-wrap > .search-btn {
+        font-size: 20px;
+        background: url('../img/top/iconmonstr-magnifier-1-240.png') 0 0 no-repeat;
+        background-size: 20px;
+        padding-top: 20px;
+        height: 20px;
+        width: 20px;
+        overflow: hidden;
+    }
+
+    #mobile-btn-wrap > .menu-btn {
+        font-size: 20px;
+        background: url('../img/top/iconmonstr-menu-1-240.png') 0 0 no-repeat;
+        background-size: 20px;
+        padding-top: 20px;
+        height: 20px;
+        width: 20px;
+        overflow: hidden;
+    }
+
+    .search-btn + .menu-btn {
+        margin-left: 10px;
+    }
+
+    .search-btn:hover .input-hover {
+        display: inline-block;
     }
 }

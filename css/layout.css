@@ -47,6 +47,10 @@ body {
     clear: both;
 }
 
+.input-hover {
+    display: none;
+}
+
 .date {
     position: absolute;
     left: -1px;
