@@ -51,7 +51,9 @@ body {
     position: absolute;
     left: -1px;
     bottom: 17px;
-
+    text-align: left;
+    font-size: 14px;
+    color: #d5d5d5;
 }
 
 .top-logo {
