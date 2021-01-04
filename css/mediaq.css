@@ -1,0 +1,41 @@
+@media (max-width: 1024px) and (min-width: 768px) {
+
+    #wrap {
+        width: 768px;
+        margin: 0 auto;
+    }
+
+    #header-wrap {
+        width: 100%;
+    }
+
+    #side-contents-wrap {
+        width: 100%;
+    }
+
+    #side-menu-wrap {
+        display: none;
+    }
+
+    #contents-wrap {
+        float: none;
+        margin: 0 auto;
+        padding: 27px 0 0 0;
+    }
+
+    footer {
+        text-align: center;
+    }
+
+    #footer-wrap {
+        display: inline-block;
+    }
+
+    #footer-wrap > div {
+        display: block;
+    }
+
+    #footer-wrap > div + div {
+        margin: 0;
+    }
+}
