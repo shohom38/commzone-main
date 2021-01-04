@@ -29,8 +29,16 @@ body {
     position: relative;
 }
 
+#side-contents-wrap::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
 #contents-wrap {
-    padding: 27px 30px 0 234px;
+    width: 757px;
+    float: right;
+    padding: 27px 33px 0 0;
 }
 
 #contents-wrap::after {
@@ -89,9 +97,7 @@ button {
     width: 204px;
     background: url('../img/sidemenu/side-shadow.png') right top repeat-y;
     padding-right: 7px;
-    position: absolute;
-    left: 0;
-    top: -1px;
+    float: left;
 }
 
 .sm-home {
@@ -119,6 +125,7 @@ button {
 
 .banner-wrap > ul {
     padding-left: 1px;
+    margin-top: 5px;
 }
 
 .banner-wrap > ul::after {
@@ -129,7 +136,10 @@ button {
 
 .banner-wrap > ul > li {
     float: left;
-    margin: 5px auto 0 auto;
+}
+
+.banner-wrap > ul > li:nth-child(n+3):nth-child(-n+4) {
+    margin-top: 5px;
 }
 
 .banner-wrap > ul > li > a {
