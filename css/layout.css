@@ -260,3 +260,7 @@ button {
 #footer-wrap > div + div {
     margin-left: 10px;
 }
+
+input[id="menu-icon"] {
+    display: none;
+}
