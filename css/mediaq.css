@@ -1,4 +1,4 @@
-@media (max-width: 1024px) and (min-width: 768px) {
+@media (max-width: 1023px) and (min-width: 768px) {
 
     #wrap {
         width: 768px;
@@ -155,34 +155,98 @@
 
     .banner-wrap-1 {
         width: 100%;
+        margin: 0;
+    }
+
+    .banner-wrap-2 > div {
+        float: none;
     }
 
     .banner-wrap-1 > .box-wrap:nth-child(even) {
-        margin: 0;
+        margin: 14px 0 0 0;
     }
 
     .box-wrap > .box-181x162:nth-child(even) {
         margin-left: 10px;
     }
 
+    .box-wrap > .box-181x162:first-child, 
+    .box-wrap > .box-181x162:nth-child(2) {
+        margin-bottom: 9px;
+    }
+    
+    .banner-wrap-2 > div:nth-child(even) {
+        margin-left: 0;
+    }
+
+    .banner-wrap-2 > div:first-child, 
+    .banner-wrap-2 > div:nth-child(2) {
+        margin: 14px 0 0 0;
+    }
+
     .box-wrap {
         width: 300px;
-        height: 300px;
+        height: 269px;
         float: none;
     }
 
     .box-373x334 {
         width: 300px;
-        height: 100%;
+        height: 269px;
+    }
+
+    .box-373x141 {
+        width: 300px;
+        height: 113px;
     }
 
     .box-181x162 {
         width: 145px;
-        height: 145px;
+        height: 130px;
     }
 
     .box-373x334 > a > img {
         width: 300px;
+    }
+
+    .box-373x113 {
+        width: 300px;
+        height: 91px;
+        background-size: 300px;
+    }
+
+    .box-373x113 > ul {
+        margin-top: 3px;
+        padding-left: 15px;
+    }    
+
+    .box-373x113 > h2 {
+        padding: 23px 0 0 20px;
+    }
+
+    .talktalk-wrap > h2,
+    .idea-wrap > h2 {
+        background-position: 20px 10px;
+        margin: 14px 0 0 0;
+    }
+
+    .board-more {
+        top: 10px;
+        right: 10px;
+    }
+
+    .box-373x113 > ul > li > a > span {
+        right: 8px;
+        font-size: 10px;
+    }
+
+    .box-373x113 > ul > li:last-child > a > span {
+        font-size: 10px;
+        right: 8px;
+    }
+
+    .hi-contents {
+        height: 90px;
     }
 
     .ct-1 {
@@ -206,25 +270,48 @@
         width: 70px;
     }
 
+    .title-position {
+        top: 3px;
+        left: 20px;
+    }
+
+    .more-position {
+        top: 5px;
+    }
+
     .box > a {
         width: 145px;
-        height: 145px;
+        height: 130px;
     }
 
-    .livetalk {
-        background-size: 145px;
-    }
-
-    .CnT {
-        background-size: 145px;
-    }
-
-    .interview {
-        background-size: 145px;
-    }
-
+    .livetalk,
+    .CnT,
+    .interview,
     .office-bc {
         background-size: 145px;
+    }
+
+    .hotissue-wrap,
+    .hi-title,
+    .livepoll-wrap,
+    .lp-title {
+        background-size: 300px;
+    }
+
+    .vote-btn-wrap {
+        top: 5px;
+        right: 5px;
+    }
+
+    .hoti-txt {
+        width: 145px;
+        top: 35px;
+        left: 20px;
+    }
+
+    .person-position {
+        right: 27px;
+        width: 100px;
     }
 
     #header-wrap {
@@ -256,6 +343,7 @@
     }
 
     #contents-wrap {
+        width: 300px;
         float: none;
         margin: 0 auto;
         padding: 90px 0 0 0;
@@ -356,6 +444,26 @@
         transition: .45s;
         background: #e7e7e7;
         overflow: scroll;
+    }
+
+    .lp-contents {
+        height: 90px;
+    }
+
+    .lp-txt-wrap {
+        top: 21px;
+    }
+
+    .lp-txt-wrap > img:nth-child(1) {
+        width: 110px;
+    }
+
+    .lp-txt-wrap > img:nth-child(2) {
+        width: 100px;
+    }
+
+    .lp-txt-wrap > img + img {
+        margin-top: 10px;
     }
 
     input[id="menu-icon"]:checked ~ header .menu-btn {
