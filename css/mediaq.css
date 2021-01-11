@@ -147,7 +147,7 @@
 @media (max-width: 767px) and (min-width: 320px) {
 
     #wrap {
-        margin: 0 auto;
+        padding: 0 10px;
     }
     
     .top-bg-wrap {
@@ -211,9 +211,9 @@
     }
 
     .box-373x113 {
-        width: 300px;
+        width: 100%;
         height: 91px;
-        background-size: 300px;
+        background-size: 100%;
     }
 
     .box-373x113 > ul {
@@ -320,6 +320,8 @@
         height: 62px;
         text-align: left;
         position: fixed;
+        left: 0;
+        padding-left: 10px;
         z-index: 30;
         background-color: #fff;
     }
@@ -542,6 +544,7 @@
     input[id="menu-icon"]:checked ~ #side-contents-wrap #side-menu-320-wrap {
         display: block;
         top: 63px;
+        left: 0;
     }
 
     input[id="menu-icon"]:checked ~ header #search-btn-wrap {
