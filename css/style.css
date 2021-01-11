@@ -247,6 +247,15 @@
     left: 21px;
 }
 
+.hi-contents {
+    height: 118px;
+}
+
+.hi-contents > a {
+    display: block;
+    height: 118px;
+}
+
 .person-position {
     position: absolute;
     bottom: 0;
@@ -271,8 +280,13 @@
 
 .more-position {
     position: absolute;
-    top: 8px;
     right: 20px;
+    line-height: 24px;
+    z-index: 30;
+}
+
+.more-position > img {
+    vertical-align: middle;
 }
 
 footer {
