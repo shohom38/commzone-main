@@ -246,6 +246,10 @@ button {
     right: 20px;
 }
 
+.vote-btn-wrap a {
+    display: inline-block;
+}
+
 .vote-btn-wrap > a + a {
     margin-left: 10px;
 }
